@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag cjandsilvap/charvi:$(date +%s)
 
     - name: Docker Push
-      run: docker push cjandsilvap/charvi:latest
+      run: docker push cjandsilvap/charvi
