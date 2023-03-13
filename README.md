@@ -16,7 +16,8 @@ Acceess to docker hub is stored as environment variables in Github secrets in th
 Username : secrets.DOCKERHUB_USERNAME
 Password : secrets.DOCKER_PASSWORD
 
-To trigger the pipeline you have to make your changes out of a checked out branch from the main as the main branch is protected and send a PR to merge to main branch.When the Pull request is created to the main branch github actions will run checks to check if the stages of the pipline is passed, once the checks are passed you can merge it to main.
+To trigger the pipeline you have to make your changes out of a checked out branch from the main as the main branch is protected and send a PR to merge to main branch. When the Pull request is created to the main branch github actions will run checks to check if the stages of the pipline is passed, once the checks are passed you can merge it to main.
+You can observe the pipline workflow when you go to actions in the github.
 
 Github workflow includes,
 
