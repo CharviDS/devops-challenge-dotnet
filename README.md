@@ -22,8 +22,11 @@ You can observe the pipline workflow when you go to actions in the github.
 Github workflow includes,
 
 dotnet test which has been allowed to fail
+
 docker login
+
 build the docker image using latest as default
+
 push the docker image that was built in the previous step to the docker hub
 
 the final docker image pf the build applciaction as a container can be found in the below link in docker hub with the tage latest
