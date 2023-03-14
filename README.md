@@ -8,8 +8,11 @@ Docker credentials are created using
 Technologies used
 
 Git
+
 Github actions
+
 Docker
+
 mcr.microsoft.com/dotnet/sdk:5.0 is used as the base image.
 
 Acceess to docker hub is stored as environment variables in Github secrets in the settings.
